@@ -1,7 +1,7 @@
 // Requiring NPM packages
 const express = require('express')
 const app = express()
-// const logger = require('morgan')
+const logger = require('morgan')
 const methodOverride = require('method-override')
 const routes = require('./routes/index.js')
 const bodyParser = require('body-parser');
@@ -20,7 +20,7 @@ app.use(express.urlencoded({
 }))
 app.use(methodOverride('_method'))
 
-// app.use(logger('dev'))
+app.use(logger('dev'))
 
 app.use(express.static(__dirname + '/public'))
 
