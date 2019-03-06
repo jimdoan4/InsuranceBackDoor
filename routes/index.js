@@ -23,10 +23,11 @@ const noteController = require('../controllers/noteController.js')
 // router.delete('/:recipeId', userController.delete)
 
 // App Routes
-// router.get('/', appController.index)
+router.get('/', appController.index)
+// router.get('/views/educ.html', courseController.index)
 
 //Course Routes
-router.get('/', courseController.index)
+router.get('/courses', courseController.index)
 
 router.get('/new', courseController.new)
 

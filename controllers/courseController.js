@@ -7,6 +7,7 @@ const courseController = {
         Course.find().then(courses => {
             res.render('courses/index', {
                 courses
+                // res.redirect('/views/educ.html')
             })
         })
     },
