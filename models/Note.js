@@ -5,7 +5,7 @@ const Schema = mongoose.Schema
 const NoteSchema = new Schema({
     title: String,
     chapter: String,
-    description: String,
+    noteDescription: String,
     hints: String
 })
 
