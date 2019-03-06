@@ -47,9 +47,9 @@ Professor.create(newProfessors).then(professor => {
     console.log("Saved professor", professor)
 })
 
-// Note.create(newNotes).then(note => {
-//     console.log("Saved note", note)
-// })
+Note.create(newNotes).then(note => {
+    console.log("Saved note", note)
+})
 
 // User.create(newUsers).then(user => {
 //     console.log("Saved user", user)

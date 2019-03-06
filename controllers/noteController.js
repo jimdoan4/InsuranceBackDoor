@@ -4,6 +4,7 @@ const Note = require('../models/Note.js')
 const noteController = {
     index: (req, res) => {
         Note.find().then(notes => {
+            console.log(notes)
             res.render('notes/index', {
                 notes
             })

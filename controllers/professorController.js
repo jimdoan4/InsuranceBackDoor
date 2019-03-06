@@ -26,6 +26,8 @@ const professorController = {
             res.render('professors/show', {
                 professor
             })
+        }).catch((error) => {
+            console.log(error)
         })
     },
     edit: (req, res) => {
