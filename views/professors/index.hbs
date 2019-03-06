@@ -1,21 +1,20 @@
 {{#each professors}}
-{{!-- {{#each professors}}
-{{#each notes}} --}}
+
 <div class="article-list">
     <div class="container">
         <div class="intro">
             <h2 class="text-center" style="font-size: 23px;height: 30px;"><strong>Community</strong></h2>
         </div>
         <div class="row articles">
-            <div class="col-sm-6 col-md-4 item"><a href="/professors"><img src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
+            <div class="col-sm-6 col-md-4 item"><a href="#""><img src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
                         class="img-fluid" /></a>
                 <h3 class="name">Professors</h3>
-                <p class="description"><a href="/{{id}}">{{name}}</a></p>
+                <p class="description"><a href="{{id}}">{{name}}</a></p>
                 <p class="description">{{courseNumber}}</p>
                 <p class="description">{{difficultyLevel}}</p>
                 <p class="description">{{rating}}</p>
                 <p class="description">{{comments}}</p>
-                <a class="btn btn-success" href="/new">+ Add New Courses</a>
+                <a class="btn btn-success" href="/professors/new">+ Add New Professors</a>
             </div>
         </div>
     </div>

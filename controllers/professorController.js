@@ -3,29 +3,33 @@ const Professor = require('../models/Professor.js')
 
 const professorController = {
     index: (req, res) => {
+        // res.render('professors/index')
         Professor.find().then(professors => {
             res.render('professors/index', {
                 professors
             })
         })
     },
+
     new: (req, res) => {
         res.render('professors/new')
     },
+
     create: (req, res) => {
         Professor.create(req.body).then(professor => {
             res.redirect('/')
         })
     },
+
     show: (req, res) => {
-        Professor.findById(req.params.professor.Id).then(professor => {
+        Professor.findById(req.params.professorId).then(professor => {
             res.render('professors/show', {
                 professor
             })
         })
     },
     edit: (req, res) => {
-        Professor.findById(req.params.professor.d).then(professor => {
+        Professor.findById(req.params.professorId).then(professor => {
             res.render('professors/edit', {
                 professor
             })

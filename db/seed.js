@@ -43,9 +43,9 @@ Course.create(newCourses).then(course => {
     console.log("Saved course", course)
 })
 
-// Professor.create(newProfessors).then(professor => {
-//     console.log("Saved professor", professor)
-// })
+Professor.create(newProfessors).then(professor => {
+    console.log("Saved professor", professor)
+})
 
 // Note.create(newNotes).then(note => {
 //     console.log("Saved note", note)

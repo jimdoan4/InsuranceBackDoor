@@ -1,43 +1,9 @@
-{{!-- index --}}
-{{!-- <div class="container text-center">
-    <h2 class="text-center">Courses</h2>
-
-    {{#each courses}}
-    <div class="row review">
-       
-        <div class="col-sm-6 d-flex justify-content-end">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h4>
-                        <a href="/{{id}}">{{courseName}}</a>
-                    </h4>
-                    <div class="col-sm-12">
-                        <p>{{university}}</p>
-                    </div>
-                    <div class="col-sm-12">
-                        <p>{{professorName}}</p>
-                    </div>
-                    <div class="col-sm-12">
-                        <p>{{term}}</p>
-                    </div>
-                    <div class="col-sm-12">
-                        <p>{{description}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{/each}}
-    <a class="btn btn-success" href="/new">+ Add New Courses</a>
-</div> --}}
 {{#each courses}}
-{{!-- {{#each professors}}
-{{#each notes}} --}}
 <div class="article-list">
     <div class="container">
-        <div class="intro">
+        {{!-- <div class="intro">
             <h2 class="text-center" style="font-size: 23px;height: 30px;"><strong>Community</strong></h2>
-        </div>
+        </div> --}}
         <div class="row articles">
             <div class="col-sm-6 col-md-4 item"><a href="/courses"><img src="https://image.flaticon.com/icons/svg/746/746950.svg"
                         class="img-fluid" /></a>
@@ -47,27 +13,7 @@
                         <p class="description">{{professorName}}</p>
                             <p class="description">{{term}}</p>
                                 <p class="description">{{description}}</p>
-                {{!-- {{/each}} --}}
                 <a class="btn btn-success" href="/new">+ Add New Courses</a>
-            {{!-- </div> 
-            <div class="col-sm-6 col-md-4 item"><a href="/professors"><img src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
-                        class="img-fluid" /></a>
-                <h3 class="name">Professors</h3>
-            <p class="description"><a href="/{{id}}">{{name}}</a></p>
-            <p class="description">{{courseNumber}}</p>
-            <p class="description">{{difficultyLevel}}</p>
-            <p class="description">{{rating}}</p>
-            <p class="description">{{comments}}</p>
-                    <a class="btn btn-success" href="/new">+ Add New Courses</a>
-            </div>
-            <div class="col-sm-6 col-md-4 item"><a href="/notes"><img src="https://image.flaticon.com/icons/svg/326/326963.svg"
-                        class="img-fluid" /></a>
-                <h3 class="name">Notes</h3>
-                <p class="description"><a href="/{{id}}">{{title}}</a></p>
-                <p class="description">{{chapter}}</p>
-                <p class="description">{{noteDescription}}</p>
-                <p class="description">{{hints}}</p>
-                    <a class="btn btn-success" href="/new">+ Add New Courses</a> --}}
             </div>
         </div>
     </div>
