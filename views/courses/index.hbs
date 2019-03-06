@@ -31,13 +31,15 @@
     <a class="btn btn-success" href="/new">+ Add New Courses</a>
 </div> --}}
 {{#each courses}}
+{{!-- {{#each professors}}
+{{#each notes}} --}}
 <div class="article-list">
     <div class="container">
         <div class="intro">
-            <h2 class="text-center" style="font-size: 34px;height: 45px;"><strong>Community</strong></h2>
+            <h2 class="text-center" style="font-size: 23px;height: 30px;"><strong>Community</strong></h2>
         </div>
         <div class="row articles">
-            {{!-- <div class="col-sm-6 col-md-4 item"><a href="/courses"><img src="https://image.flaticon.com/icons/svg/746/746950.svg"
+            <div class="col-sm-6 col-md-4 item"><a href="/courses"><img src="https://image.flaticon.com/icons/svg/746/746950.svg"
                         class="img-fluid" /></a>
                 <h3 class="name">Courses</h3>
                 <p class="description"><a href="/{{id}}">{{courseName}}</a></p>
@@ -46,8 +48,8 @@
                             <p class="description">{{term}}</p>
                                 <p class="description">{{description}}</p>
                 {{!-- {{/each}} --}}
-                {{!-- <a class="btn btn-success" href="/new">+ Add New Courses</a>
-            </div> --}} 
+                <a class="btn btn-success" href="/new">+ Add New Courses</a>
+            {{!-- </div> 
             <div class="col-sm-6 col-md-4 item"><a href="/professors"><img src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
                         class="img-fluid" /></a>
                 <h3 class="name">Professors</h3>
@@ -65,10 +67,10 @@
                 <p class="description">{{chapter}}</p>
                 <p class="description">{{noteDescription}}</p>
                 <p class="description">{{hints}}</p>
-                    <a class="btn btn-success" href="/new">+ Add New Courses</a>
+                    <a class="btn btn-success" href="/new">+ Add New Courses</a> --}}
             </div>
         </div>
     </div>
 </div>
-
 {{/each}}
+

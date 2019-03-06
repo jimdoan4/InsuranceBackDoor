@@ -42,19 +42,19 @@ router.put('/:courseId', courseController.update)
 router.delete('/:courseId', courseController.delete)
 
 //Professor Routes
-router.get('/courses', professorController.index)
+// router.get('/courses', professorController.index)
 
-router.get('/new', professorController.new)
+// router.get('/professors/new', professorController.new)
 
-router.post('/courses', professorController.create)
+// router.post('/professors', professorController.create)
 
-router.get('/:professorId', professorController.show)
+// router.get('/:professorId', professorController.show)
 
-router.get('/:professorId/edit', professorController.edit)
+// router.get('/:professorId/edit', professorController.edit)
 
-router.put('/:professorId', professorController.update)
+// router.put('/:professorId', professorController.update)
 
-router.delete('/:professorId', professorController.delete)
+// router.delete('/:professorId', professorController.delete)
 
 
 // //Note Routes
