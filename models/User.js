@@ -14,11 +14,3 @@ const UserSchema = new Schema({
 })
 
 module.exports = mongoose.model('User', UserSchema)
-
-
-//  name: String,
-//      ingredients: [],
-//      cookingTime: String,
-//      description: String,
-//      recipeImg: String,
-//      directions: [],

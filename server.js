@@ -4,15 +4,15 @@ const app = express()
 const logger = require('morgan')
 const methodOverride = require('method-override')
 const routes = require('./routes/index.js')
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
-app.use(bodyParser.json());
-app.use(express.urlencoded({
-    extended: true
-}));
+// app.use(bodyParser.urlencoded({
+//     extended: true
+// }));
+// app.use(bodyParser.json());
+// app.use(express.urlencoded({
+//     extended: true
+// }));
 //Register middleware
 app.use(express.json())
 app.use(express.urlencoded({

@@ -5,22 +5,6 @@ const userController = require('../controllers/userController.js')
 const courseController = require('../controllers/courseController.js')
 const professorController = require('../controllers/professorController.js')
 const noteController = require('../controllers/noteController.js')
-const loginController = require('../controllers/loginController.js')
-
-// // Login Routes
-// router.get('/', loginController.index)
-
-// router.get('/new', loginController.new)
-
-// router.post('/', loginController.create)
-
-// router.get('/:recipeId', uloginController.show)
-
-// router.get('/:recipeId/edit', loginController.edit)
-
-// router.put('/:recipeId', loginController.update)
-
-// router.delete('/:recipeId', loginController.delete)
 
 // User Routes
 // router.get('/', userController.index)
@@ -52,35 +36,35 @@ router.put('/:courseId', courseController.update)
 
 router.delete('/:courseId', courseController.delete)
 
-//Professor Routes
-router.get('/', professorController.index)
+// //Professor Routes
+// router.get('/', professorController.index)
 
-router.get('/new', professorController.new)
+// router.get('/new', professorController.new)
 
-router.post('/', professorController.create)
+// router.post('/', professorController.create)
 
-router.get('/:professorId', professorController.show)
+// router.get('/:professorId', professorController.show)
 
-router.get('/:professorId/edit', professorController.edit)
+// router.get('/:professorId/edit', professorController.edit)
 
-router.put('/:professorId', professorController.update)
+// router.put('/:professorId', professorController.update)
 
-router.delete('/:professorId', professorController.delete)
+// router.delete('/:professorId', professorController.delete)
 
 
-//Note Routes
-router.get('/', noteController.index)
+// //Note Routes
+// router.get('/', noteController.index)
 
-router.get('/new', noteController.new)
+// router.get('/new', noteController.new)
 
-router.post('/', noteController.create)
+// router.post('/', noteController.create)
 
-router.get('/:noteId', noteController.show)
+// router.get('/:noteId', noteController.show)
 
-router.get('/:noteId/edit', noteController.edit)
+// router.get('/:noteId/edit', noteController.edit)
 
-router.put('/:noteId', noteController.update)
+// router.put('/:noteId', noteController.update)
 
-router.delete('/:noteId', noteController.delete)
+// router.delete('/:noteId', noteController.delete)
 
 module.exports = router

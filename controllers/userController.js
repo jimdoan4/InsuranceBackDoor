@@ -1,5 +1,5 @@
-// Receipe Controller
-const User = require('../models/User.js')
+// User Controller
+// const User = require('../models/User.js')
 
 // const userController = {
 //     index: (req, res) => {

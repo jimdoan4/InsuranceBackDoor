@@ -1,60 +1,59 @@
 const mongoose = require("./connection");
-const User = require("../models/User.js");
+// const User = require("../models/User.js");
 const Course = require("../models/Course.js");
 const Professor = require("../models/Professor.js");
 const Note = require("../models/Note.js");
 
-const newUsers = ({
-    firstName: String,
-    lastName: String,
-    userName: String,
-    email: String,
-    age: Number,
-    gender: String,
-    password: String,
-    posts: String
-})
+// const newUsers = ({
+//     firstName: String,
+//     lastName: String,
+//     userName: String,
+//     email: String,
+//     age: Number,
+//     gender: String,
+//     password: String,
+//     posts: String
+// })
 
 const newCourses = ({
-    courseName: String,
-    university: String,
-    professorName: String,
-    term: String,
-    description: String,
-    links: String
+    courseName: "Commercial General Liability",
+    university: "University of Georgia",
+    professorName: "Tom Hawkins",
+    term: "Spring 2019",
+    description: "Commercial general liability (CGL) is a type of insurance policy that provides coverage to a business for bodily injury, personal injury and property damage caused by the business' operations, products, or injury that occurs on the business' premises."
 })
 
-const newProfessors = ({
-    name: String,
-    courseNumber: String,
-    descriptionLevel: String,
-    rating: Number,
-    comments: String
-})
+// const newProfessors = ({
+//     name: String,
+//     courseNumber: String,
+//     descriptionLevel: String,
+//     rating: Number,
+//     comments: String
+// })
 
-const newNotes = ({
-    title: String,
-    chapter: String,
-    description: String,
-    hints: String
-})
+// const newNotes = ({
+//     title: String,
+//     chapter: String,
+//     description: String,
+//     hints: String
+// })
 
 
 Course.create(newCourses).then(course => {
     console.log("Saved course", course)
 })
 
-Professor.create(newProfessors).then(professor => {
-    console.log("Saved professor", professor)
-})
+// Professor.create(newProfessors).then(professor => {
+//     console.log("Saved professor", professor)
+// })
 
-Note.create(newNotes).then(note => {
-    console.log("Saved note", note)
-})
+// Note.create(newNotes).then(note => {
+//     console.log("Saved note", note)
+// })
 
-User.create(newUsers).then(user => {
-    console.log("Saved user", user)
-})
+// User.create(newUsers).then(user => {
+//     console.log("Saved user", user)
+// })
 
 // const newUsers = [{
 //         name: "Apple Pie by Grandma Ople",

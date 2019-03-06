@@ -1,14 +1,10 @@
 {{!-- index --}}
-<div class="container">
-    <a class="btn btn-info" href="/new">+ Add New Courses</a>
-
+<div class="container text-center">
     <h2 class="text-center">Courses</h2>
 
     {{#each courses}}
     <div class="row review">
-        {{!-- <div class="col-sm-6">
-            <img class="img-thumbnail" src="{{recipeImg}}">
-        </div> --}}
+       
         <div class="col-sm-6 d-flex justify-content-end">
             <div class="row">
                 <div class="col-sm-12">
@@ -27,12 +23,10 @@
                     <div class="col-sm-12">
                         <p>{{description}}</p>
                     </div>
-                    <div class="col-sm-12">
-                        <p>{{links}}</p>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     {{/each}}
+    <a class="btn btn-success" href="/new">+ Add New Courses</a>
 </div>

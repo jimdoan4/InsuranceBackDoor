@@ -1,4 +1,4 @@
-// Category Model
+// Course Model
 const mongoose = require('../db/connection.js')
 const Schema = mongoose.Schema
 
@@ -7,8 +7,7 @@ const CourseSchema = new Schema({
     university: String,
     professorName: String,
     term: String,
-    description: String,
-    links: String
+    description: String
 })
 
 module.exports = mongoose.model('Course', CourseSchema)

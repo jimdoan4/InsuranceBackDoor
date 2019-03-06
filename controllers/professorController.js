@@ -1,5 +1,5 @@
-// Receipe Controller
-const Professor = require('../models/Professor.js')
+// Professor Controller
+// const Professor = require('../models/Professor.js')
 
 // const professorController = {
 //     index: (req, res) => {
