@@ -2,21 +2,13 @@
 <html>
     <head>
         <title>Insurance Back Door</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
             crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/style.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+            <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-
     <body>
-{{!-- 
-        <header class="banner text-center">
-            <div class="container">
-                <a href='/'>
-                    <h1>Insurance Back Door</h1>
-                </a>
-            </div>
-        </header> --}}
-        <body>
             <nav class="navbar navbar-dark navbar-expand-md fixed-top bgprimary">
                 <div class="container"><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span
                             class="sr-only">Toggle
@@ -24,52 +16,50 @@
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav flex-grow-1 justify-content-between">
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Insurance Education</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="educ.hbs">Insurance Education</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#">News</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#">Certifications</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#">College Programs</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Community</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Sign in</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="/">Community</a></li>          
                         </ul>
                     </div>
                 </div>
-            </nav> 
-        
-           <footer class="page-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6 col-md-3">
-                                <h4>Learn</h4>
-                                <ul class="footer-links">
-                                    <li><a href="#">Insurance</a></li>
-          </ul>
-                            </div> 
-           <div class="col-6 col-md-3">
-                                <h4>News</h4>
-                                <ul class="footer-links">
-                                    <li><a href="#">Story of the Day</a></li>
-                                </ul>
-                            </div> 
-          <div class="col-6 col-md-3">
-                                <h4>Education</h4>
-                                <ul class="footer-links">
-                                    <li><a href="#">Insurance Education</a></li>
-                                    {{!-- <li><a href="#">College</a></li> --}}
-                                </ul>
-                            </div> 
-         <div class="col-6 col-md-3">
-                                <h4>Account</h4>
-                                <ul class="footer-links">
-                                    <li><a href="#">Manage Your ID</a></li>
-                                    <li><a href="#">User Account</a></li>
-                                    {{!-- <li><a href="#">iCloud.com</a></li> --}}
-                                </ul>
-                            </div>
+            </nav>
+{{!-- FOOTER SECTION --}}
+            <footer class="page-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <h4>Learn</h4>
+                            <ul class="footer-links">
+                                <li><a href="#">Insurance</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h4>News</h4>
+                            <ul class="footer-links">
+                                <li><a href="#">Story of the Day</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h4>Education</h4>
+                            <ul class="footer-links">
+                                <li><a href="#">Insurance Education</a></li>
+                                <li><a href="#">College</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h4>Account</h4>
+                            <ul class="footer-links">
+                                <li><a href="#">Manage Your ID</a></li>
+                                <li><a href="#">User Account</a></li>
+                            </ul>
                         </div>
                     </div>
-                    </div>
-                </footer>
-        {{{ body }}}
-    </body>
+                </div>
+                </div>
+            </footer>
+            {{!-- {{{ body }}} --}}
+        </body>
 
-</html> 
+</html>

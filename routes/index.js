@@ -2,6 +2,7 @@
 const express = require('express')
 const router = express.Router()
 const userController = require('../controllers/userController.js')
+const appController = require('../controllers/appController.js')
 const courseController = require('../controllers/courseController.js')
 const professorController = require('../controllers/professorController.js')
 const noteController = require('../controllers/noteController.js')
@@ -20,6 +21,9 @@ const noteController = require('../controllers/noteController.js')
 // router.put('/:recipeId', userController.update)
 
 // router.delete('/:recipeId', userController.delete)
+
+// App Routes
+// router.get('/', appController.index)
 
 //Course Routes
 router.get('/', courseController.index)

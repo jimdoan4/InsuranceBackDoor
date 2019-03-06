@@ -1,15 +1,16 @@
+// Note Controller
 // const Note = require('../models/Note.js')
 
 // const noteController = {
 //     index: (req, res) => {
 //         Note.find().then(notes => {
-//             res.render('index', {
+//             res.render('notes/index', {
 //                 notes
 //             })
 //         })
 //     },
 //     new: (req, res) => {
-//         res.render('new')
+//         res.render('notes/new')
 //     },
 //     create: (req, res) => {
 //         Note.create(req.body).then(note => {
@@ -18,14 +19,14 @@
 //     },
 //     show: (req, res) => {
 //         Note.findById(req.params.noteId).then(note => {
-//             res.render('show', {
+//             res.render('notes/show', {
 //                 note
 //             })
 //         })
 //     },
 //     edit: (req, res) => {
 //         Note.findById(req.params.noteId).then(note => {
-//             res.render('edit', {
+//             res.render('notes/edit', {
 //                 note
 //             })
 //         })

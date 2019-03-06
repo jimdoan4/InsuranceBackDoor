@@ -4,13 +4,13 @@
 // const professorController = {
 //     index: (req, res) => {
 //         Professor.find().then(professors => {
-//             res.render('index', {
+//             res.render('professors/index', {
 //                 professors
 //             })
 //         })
 //     },
 //     new: (req, res) => {
-//         res.render('new')
+//         res.render('professors/new')
 //     },
 //     create: (req, res) => {
 //         Professor.create(req.body).then(professor => {
@@ -19,14 +19,14 @@
 //     },
 //     show: (req, res) => {
 //         Professor.findById(req.params.professor.Id).then(professor => {
-//             res.render('show', {
+//             res.render('professors/show', {
 //                 professor
 //             })
 //         })
 //     },
 //     edit: (req, res) => {
 //         Professor.findById(req.params.professor.d).then(professor => {
-//             res.render('edit', {
+//             res.render('professors/edit', {
 //                 professor
 //             })
 //         })
