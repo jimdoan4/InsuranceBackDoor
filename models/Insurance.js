@@ -2,7 +2,7 @@
 // const mongoose = require('../db/connection.js')
 // const Schema = mongoose.Schema
 
-// const UserSchema = new Schema({
+// const InsuranceSchema = new Schema({
 //     firstName: String,
 //     lastName: String,
 //     userName: String,
@@ -13,4 +13,4 @@
 //     posts: String
 // })
 
-// module.exports = mongoose.model('User', UserSchema)
+// module.exports = mongoose.model('Insurance', InsuranceSchema)

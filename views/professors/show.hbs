@@ -10,8 +10,8 @@
         <p>{{professor.comments}}</p>
     </div>
     <div class="text-center">
-        <a class="action-btn btn btn-info" href="/{{professor.id}}/edit">EDIT</a>
-        <form class="delete-form" action="/{{professor.id}}?_method=DELETE" method="POST">
+        <a class="action-btn btn btn-info" href="/professors/{{professor.id}}/edit">EDIT</a>
+        <form class="delete-form" action="/professors/{{professor.id}}?_method=DELETE" method="POST">
             <input class="action-btn btn btn-danger" type="submit" value="DELETE">
         </form>
     </div>
