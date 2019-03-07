@@ -1,4 +1,4 @@
-{{#each notes}}
+
 <div class="article-list">
     <div class="container">
         {{!-- <div class="intro">
@@ -8,6 +8,7 @@
             <div class="col-sm-6 col-md-4 item"><a href="/notes"><img src="https://image.flaticon.com/icons/svg/746/746950.svg"
                         class="img-fluid" /></a>
                 <h3 class="name">Notes</h3>
+                {{#each notes}}
                 <p class="description"><a href="/notes/{{id}}">{{title}}</a></p>
                 <p class="description">{{chapter}}</p>
                 <p class="description">{{noteDescription}}</p>

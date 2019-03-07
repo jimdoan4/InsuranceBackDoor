@@ -1,4 +1,4 @@
-{{#each professors}}
+
 
 <div class="article-list">
     <div class="container">
@@ -9,6 +9,7 @@
             <div class="col-sm-6 col-md-4 item"><a href="#""><img src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
                         class="img-fluid" /></a>
                 <h3 class="name">Professors</h3>
+                {{#each professors}}
                 <p class="description"><a href="/professors/{{id}}">{{name}}</a></p>
                 <p class="description">{{courseNumber}}</p>
                 <p class="description">{{difficultyLevel}}</p>
