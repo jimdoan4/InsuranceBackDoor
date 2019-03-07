@@ -1,23 +1,23 @@
-
-<div class="article-list">
-    <div class="container">
-        {{!-- <div class="intro">
-            <h2 class="text-center" style="font-size: 23px;height: 30px;"><strong>Community</strong></h2>
-        </div> --}}
-        <div class="row articles">
-            <div class="col-sm-6 col-md-4 item"><a href="/notes"><img src="https://image.flaticon.com/icons/svg/746/746950.svg"
-                        class="img-fluid" /></a>
-                <h3 class="name">Notes</h3>
-                {{#each notes}}
-                <p class="description"><a href="/notes/{{id}}">{{title}}</a></p>
-                <p class="description">{{chapter}}</p>
-                <p class="description">{{noteDescription}}</p>
-                <p class="description">{{hints}}</p>
-                <a class="btn btn-success" href="/notes/new">+ Add New Notes</a>
-            </div>
-        </div>
+<h2 class="text-center" style="font-size: 52px;height: 90px;margin-top: 28px;"><strong>Notes</strong></h2>
+<section class="flex-container card-flex">
+    {{#each notes}}
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top ing-fluid" src="https://image.flaticon.com/icons/svg/746/746950.svg" alt="Styles Pictures">
+                <div class="card-body">
+                    <h3 class="name">Notes</h3>
+                    <p class=" card-text description"><a href="/notes/{{id}}">{{title}}</a></p>
+                    <p class="card-text description">{{chapter}}</p>
+                    <p class="card-text description">{{noteDescription}}</p>
+                    <p class="card-text description">{{hints}}</p>
+                </div>
+                </div>
+                {{/each}}
+        
     </div>
 </div>
-{{/each}}
+</section>
+
+<a class="text-center btn btn-success"style="margin-top: 35px;" href="/notes/new">+ Add New Notes</a>
+
 
 

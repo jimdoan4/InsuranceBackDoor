@@ -1,19 +1,10 @@
 // const Insurance = require('../models/Insurance.js')
-// const insuranceController = {
-//     index: (req, res) => {
-//         Insurance.find().then(Insurances => {
-//             console.log(Insurance)
-//             res.render('Insurances/index', {
-//                 Insurances
-//             })
-//         })
-//     }
-// }
-// const insuranceController = {
-//     index: (req, res) => {
-//         res.render('insurances/index')
-//     }
-// }
+
+const insuranceController = {
+    index: (req, res) => {
+        res.render('insurances/index')
+    }
+}
 
 //     new: (req, res) => {
 //         res.render('notes/new')
@@ -52,4 +43,4 @@
 //     }
 // }
 
-// module.exports = insuranceController;
+module.exports = insuranceController;

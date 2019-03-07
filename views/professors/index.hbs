@@ -1,23 +1,24 @@
 
-
-<div class="article-list">
-    <div class="container">
-        <div class="intro">
-            <h2 class="text-center" style="font-size: 23px;height: 30px;"><strong>Community</strong></h2>
-        </div>
-        <div class="row articles">
-            <div class="col-sm-6 col-md-4 item"><a href="#""><img src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
-                        class="img-fluid" /></a>
+<h2 class="text-center" style="font-size: 52px;height: 90px;margin-top: 28px;"><strong>Professors</strong></h2>
+<section class="flex-container card-flex">
+        {{#each professors}}
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top ing-fluid" src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
+                        alt="Styles Pictures">
+                        <div class="card-body">
                 <h3 class="name">Professors</h3>
-                {{#each professors}}
                 <p class="description"><a href="/professors/{{id}}">{{name}}</a></p>
                 <p class="description">{{courseNumber}}</p>
                 <p class="description">{{difficultyLevel}}</p>
                 <p class="description">{{rating}}</p>
                 <p class="description">{{comments}}</p>
-                <a class="btn btn-success" href="/professors/new">+ Add New Professors</a>
+              
             </div>
         </div>
+        {{/each}}
     </div>
 </div>
-{{/each}}
+</section>
+<a class="text-center btn btn-success"style="margin-top: 35px;" href="/professors/new">+ Add New Professors</a>
+
+

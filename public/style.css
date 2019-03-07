@@ -431,3 +431,17 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .col-sm-6 .col-md-4 .item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: inline-block !important; */
+/* } */

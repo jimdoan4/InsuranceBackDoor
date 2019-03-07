@@ -5,7 +5,26 @@ const appController = require('../controllers/appController.js')
 const courseController = require('../controllers/courseController.js')
 const professorController = require('../controllers/professorController.js')
 const noteController = require('../controllers/noteController.js')
-// const insuranceController = require('../controllers/insuranceController.js')
+const insuranceController = require('../controllers/insuranceController.js')
+const certificationController = require('../controllers/certificationController.js')
+const collegeController = require('../controllers/collegeController.js')
+const newController = require('../controllers/newController.js')
+const communityController = require('../controllers/communityController.js')
+
+//Insurance Routes
+router.get('/insurances', insuranceController.index)
+
+//Certification Routes
+router.get('/certifications', certificationController.index)
+
+//News Routes
+router.get('/news', newController.index)
+
+//College Routes
+router.get('/colleges', collegeController.index)
+
+//Community Routes
+router.get('/communities', communityController.index)
 
 // App Routes
 router.get('/', appController.index)
@@ -55,7 +74,6 @@ router.put('/:courseId', courseController.update)
 
 router.delete('/:courseId', courseController.delete)
 
-//Insurance Routes
-// router.get('/insurances', insuranceController.index)
+
 
 module.exports = router;
