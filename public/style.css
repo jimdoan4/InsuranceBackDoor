@@ -31,11 +31,8 @@ body {
 
 .bgprimary {
     background-color: #0D4F8B;
-  height: 47px;
-  font-family: ABeeZee, sans-serif;
-}
-
-
+    height: 47px;
+    font-family: ABeeZee, sans-serif;
 }
 
 @media (min-width:768px) {
@@ -144,7 +141,7 @@ ul {
 }
 
 .newsimg {
-    height: 380px;
+    height: 400px;
 }
 
 /* Community CSS */
@@ -186,7 +183,7 @@ ul {
 }
 
 a:hover {
-    color: #0056b3;
+    color: blue;
     text-decoration: underline;
 }
 
@@ -245,14 +242,10 @@ p {
     justify-content: space-around;
 }
 
-.sizing {
-    width: 80px;
-    height: 600px;
-}
-
 .back {
     margin-top: 40px;
     font-family: 'Anton', sans-serif;
+    font-family: 'Sigmar One', cursive;
     font-size: 70px;
 }
 
