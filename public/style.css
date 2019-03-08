@@ -31,7 +31,7 @@ body {
 
 .bgprimary {
     background-color: #0D4F8B;
-    height: 47px;
+    height: 57px;
     font-family: ABeeZee, sans-serif;
 }
 
@@ -137,7 +137,7 @@ ol,
 ul {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .newsimg {
@@ -146,7 +146,7 @@ ul {
 
 /* Community CSS */
 .article-list .intro {
-    font-size: 16px;
+    font-size: 17px;
     max-width: 500px;
     margin: 0 auto;
 }
@@ -195,13 +195,13 @@ a {
 
 .article-list .item .name {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
     color: inherit;
 }
 
 .article-list .item .description {
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 15px;
     margin-bottom: 0;
 }
