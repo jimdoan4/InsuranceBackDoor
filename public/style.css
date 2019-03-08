@@ -143,6 +143,10 @@ ul {
     font-size: 14px;
 }
 
+.newsimg {
+    height: 380px;
+}
+
 /* .policy {
     background-size: cover;
     height: 550px;
