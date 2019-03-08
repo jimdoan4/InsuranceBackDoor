@@ -1,4 +1,4 @@
-<!-- # Insurance Back Door
+# Insurance Back Door
 
 ### Overview
 Insurance Back Door is an online application for college students and young adults who are looking to obtain insurance information to enhance their knowledge. This application allows users to post review about their college professors, courses as well as post class notes to share with their fellow peers.
@@ -37,4 +37,4 @@ This application has:
 #### ERDs
 ![image uploaded from ios](https://user-images.githubusercontent.com/10038637/28836310-61c7de50-76b6-11e7-8fe2-e1d561753b6e.jpg)
 
-![screen shot 2017-08-01 at 11 39 30 am](https://trello-attachments.s3.amazonaws.com/5c7eaae40133db8de6b1782b/1200x1600/b19083fcd9b1028b6ba4c8b998a425a0/IMG_1532.jpg)
+![screen shot 2017-08-01 at 11 39 30 am](https://trello-attachments.s3.amazonaws.com/5c7eaae40133db8de6b1782b/1200x1600/b19083fcd9b1028b6ba4c8b998a425a0/IMG_1532.jpg) 
