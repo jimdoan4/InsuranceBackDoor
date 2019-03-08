@@ -1,24 +1,21 @@
 
 <h2 class="text-center" style="font-size: 52px;height: 90px;margin-top: 28px;"><strong>Professors</strong></h2>
 <section class="flex-container card-flex">
-        {{#each professors}}
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top ing-fluid" src="https://image.flaticon.com/icons/svg/1464/1464963.svg"
-                        alt="Styles Pictures">
-                        <div class="card-body">
-                <h3 class="name">Professors</h3>
-                <p class="description"><a href="/professors/{{id}}">{{name}}</a></p>
-                <p class="description">{{courseNumber}}</p>
-                <p class="description">{{difficultyLevel}}</p>
-                <p class="description">{{rating}}</p>
-                <p class="description">{{comments}}</p>
-              
-            </div>
-        </div>
-        {{/each}}
+  {{#each professors}}
+  <div class="card border border-dark" style="width: 18rem;">
+    <img class="card-img-top ing-fluid" src="https://image.flaticon.com/icons/svg/1464/1464963.svg" alt="Styles Pictures">
+    <div class="card-body">
+      <h3 class="name">Professors</h3>
+      <p class="description"><a href="/professors/{{id}}">{{name}}</a></p>
+      <p class="description">{{courseNumber}}</p>
+      <p class="description">{{difficultyLevel}}</p>
+      <p class="description">{{rating}}</p>
+      <p class="description">{{comments}}</p>
+
     </div>
-</div>
+  </div>
+  {{/each}}
+  </div>
+  </div>
 </section>
-<a class="text-center btn btn-success"style="margin-top: 35px;" href="/professors/new">+ Add New Professors</a>
-
-
+<a class="text-center btn btn-success" style="margin-top: 35px;" href="/professors/new">+ Add New Professors</a>

@@ -1,22 +1,22 @@
 {{!-- show --}}
 <div class="container">
-<div class="card">
+  <div class="card">
     <div class="card-body">
-<h3 class="text-center">Professors</h3>
+      <h3 class="text-center">Professors</h3>
 
-    <h2 class="text-center">{{professor.name}}</h2>
-    <div class="col-sm-8">
+      <h2 class="text-center">{{professor.name}}</h2>
+      <div class="col-sm-8">
         <p>{{professor.courseNumber}}</p>
         <p>{{professor.difficultyLevel}}</p>
         <p>{{professor.rating}}</p>
         <p>{{professor.comments}}</p>
-    </div>
-    <div class="text-center">
+      </div>
+      <div class="text-center">
         <a class="action-btn btn btn-info" href="/professors/{{professor.id}}/edit">EDIT</a>
         <form class="delete-form" action="/professors/{{professor.id}}?_method=DELETE" method="POST">
-            <input class="action-btn btn btn-danger" type="submit" value="DELETE">
+          <input class="action-btn btn btn-danger" type="submit" value="DELETE">
         </form>
+      </div>
     </div>
-</div>
-</div>
+  </div>
 </div>
