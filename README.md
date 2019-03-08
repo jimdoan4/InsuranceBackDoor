@@ -46,6 +46,7 @@ This application has:
 - Morgan
 - HTML
 - CSS
+- JavaScript
 - Bootstrap
 - VS Code
 
