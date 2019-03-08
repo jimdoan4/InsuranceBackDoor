@@ -8,7 +8,7 @@ Insurance Back Door is an online application for college students and young adul
 
 [Heroku](https://blooming-everglades-71513.herokuapp.com/)
 
-- [Trello Board](https://trello.com/b/sfCGjKXn/insurance-back-door-app)
+[Trello Board](https://trello.com/b/sfCGjKXn/insurance-back-door-app)
 
 [GitHub](https://github.com/jimdoan4/InsuranceBackDoor)
 
@@ -29,12 +29,25 @@ This application has:
 ### Wireframe and ERD images
 
 #### Front Page of Website
-![account create](https://trello-attachments.s3.amazonaws.com/5c7d848dc172bc85e58922e2/1200x1600/455bbe7b181ab7f37bcca52c31645c07/IMG_1529.jpg)
-
-#### Build Your Portfolio Wireframe
-![build your portfolio screen](https://user-images.githubusercontent.com/10038637/28836100-a6f9b1ac-76b5-11e7-8482-a7ce58ec3678.png)
+![Main Page](https://trello-attachments.s3.amazonaws.com/5c7d848dc172bc85e58922e2/1200x1600/455bbe7b181ab7f37bcca52c31645c07/IMG_1529.jpg)
 
 #### ERDs
-![image uploaded from ios](https://user-images.githubusercontent.com/10038637/28836310-61c7de50-76b6-11e7-8fe2-e1d561753b6e.jpg)
-
 ![screen shot 2017-08-01 at 11 39 30 am](https://trello-attachments.s3.amazonaws.com/5c7eaae40133db8de6b1782b/1200x1600/b19083fcd9b1028b6ba4c8b998a425a0/IMG_1532.jpg) 
+
+#### Technology Used
+- MongoDB
+- Mongoose
+- Express
+- Dotenv
+- Node.js
+- Morgan
+- HTML
+- CSS
+- Bootstrap
+- VS Code
+
+#### Future Development
+- Add User Authentication
+- Add Forum
+- Add Animations
+- Add more links to the page
