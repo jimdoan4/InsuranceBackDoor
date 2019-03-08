@@ -28,6 +28,9 @@ This application has:
 
 ### Wireframe and ERD images
 
+#### Image of the Front Page
+![Image of the Front Live Page](https://trello-attachments.s3.amazonaws.com/5c7d32e579391f3211febd53/5c82b80696f65c547304022e/f1a257129d7050491e8f51a8c84dc57b/IMG_1535.jpg)
+
 #### Front Page of Website
 ![Main Page](https://trello-attachments.s3.amazonaws.com/5c7d848dc172bc85e58922e2/1200x1600/455bbe7b181ab7f37bcca52c31645c07/IMG_1529.jpg)
 
