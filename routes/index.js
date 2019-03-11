@@ -1,4 +1,4 @@
-// Routes
+//Routes
 const express = require('express')
 const router = express.Router()
 const appController = require('../controllers/appController.js')
@@ -26,7 +26,7 @@ router.get('/colleges', collegeController.index)
 //Community Routes
 router.get('/communities', communityController.index)
 
-// App Routes
+//App Routes
 router.get('/', appController.index)
 
 //Professor Routes
@@ -73,7 +73,6 @@ router.get('/:courseId/edit', courseController.edit)
 router.put('/:courseId', courseController.update)
 
 router.delete('/:courseId', courseController.delete)
-
 
 
 module.exports = router;
